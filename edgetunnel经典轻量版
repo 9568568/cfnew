@@ -13,7 +13,7 @@ let 中转地址 = '';
 // 每一项可以是 host:port（如 104.16.0.1:443），也可以是一个在线列表的 URL
 // （如 https://bestcf.pages.dev/vps789/top10.txt，会把里面的地址全拉进来）。
 // URL 和 host:port 可以混着填，留空就只用访问域名本身。
-let 优选地址 = '';
+let 优选地址 = 'https://bestcf.pages.dev/ircf/ipv4.txt,https://raw.githubusercontent.com/ahang39/router/refs/heads/main/all.txt,https://raw.githubusercontent.com/Senflare/Senflare-IP/refs/heads/main/Senflare-Pro.txt,https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ipv4.txt,https://raw.githubusercontent.com/joname1/BestCFip/refs/heads/main/ipv6.txt,https://bestcf.pages.dev/moistr/all.txt,https://bestcf.pages.dev/lajiao/all.txt,https://raw.githubusercontent.com/cmliu/WorkerVless2sub/refs/heads/main/addressesapi.txt,https://bestcf.pages.dev/nirevil/ipv6.txt,https://bestcf.pages.dev/vvhan/ipv6.txt,https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt,https://bestcf.pages.dev/gslege/DE.txt,https://bestcf.pages.dev/gslege/US.txt';
 // ============================================================================
 
 const 文本解码器 = new TextDecoder();
